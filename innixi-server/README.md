@@ -1,4 +1,4 @@
-# INNIXI-SERVR
+# INNIXI-SERVER
 
 ### A python based backend server containing simple code stubs for database modelling and some endpoints for the app
 
