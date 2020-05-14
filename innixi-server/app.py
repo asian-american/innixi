@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 import random
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://admin:innixi123@innixi.cqd8wcdxdx8y.us-east-2.rds.amazonaws.com/innixi'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://<USER>:<PASSWORD>@<DB-ENDPOINT>/<DB_NAME>'
 app.config['SQLALCHEMY_ECHO'] = True
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 db = SQLAlchemy(app=app)
